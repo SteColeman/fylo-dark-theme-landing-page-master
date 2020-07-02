@@ -1,0 +1,292 @@
+/*MOBILE FIRST DESIGN*/
+
+/*Global styles*/
+
+body {
+  background-color: hsl(217, 28%, 15%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin: auto;
+}
+
+h1, h3, button, .raleway {
+font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 1.4rem;
+
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1, p {
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, input {
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: 3rem;
+  border-radius: 30px;
+  border: none;
+}
+
+button {
+  color: hsl(0, 0%, 100%);
+  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  font-size: 14px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-image: linear-gradient(to left, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  cursor: pointer;
+}
+
+input {
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+/*Nav bar styling*/
+
+nav {
+    display: flex;
+  width: 90vw;
+  margin: 1rem auto;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+nav ul li a {
+  color: hsl(0, 0%, 100%);
+}
+
+/* fylo logo in top right of nav bar*/
+#navLogo {
+  object-fit: contain;
+  width: 5rem;
+}
+
+/* features, team and sign up links in nav bar*/
+#navItems {
+  margin-left: auto;
+  display: flex;
+  padding-left: 0;
+  width: 50%;
+  justify-content: space-between;
+}
+
+/* curvy line between first img and first header*/
+#mobileCurvyBg {
+  position: absolute;
+  left: 0;
+  top: 17.5rem;
+  z-index: -1;
+}
+
+#darkBackgroundColor {
+  background-color: hsl(218, 28%, 13%);
+  width: 100vw;
+  margin-top: 5.5rem;
+}
+
+#startBtn {
+  margin-top: 1.5rem;
+}
+
+.mainContent {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: -3.75rem;
+  z-index: 1;
+}
+/* 4.5rem is given to each padding top and margin to so
+when the features nav link is clicked the page is displayed
+with an appropriate amount of spacing above the first img*/
+#features {
+  padding-top: 2rem;
+  margin-top: 7rem;
+}
+
+.featuresImg {
+  width: 20%;
+  margin-bottom: 1rem;
+}
+
+#features p {
+  margin-bottom: 3rem;
+}
+
+/* width set for two png images on page*/
+.mainImgs {
+  max-width: 100%;
+}
+
+.topImg {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+
+/* Stay productive section */
+
+.bottomImg {
+  margin-top: 8rem;
+}
+
+#productiveTxt {
+  text-align: left;
+}
+
+#productiveTxt p {
+
+  margin-bottom: 0;
+}
+
+#productiveLink {
+position: absolute;
+left: 0;
+display: inline-block;
+border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+#productiveLink a {
+  color: hsl(176, 68%, 64%);
+}
+
+#productiveLink img {
+  vertical-align: middle;
+}
+
+/* founder & ceo testimonial panels at middle-bottom of page*/
+
+#teamSection {
+  width: 70%;
+  margin: auto;
+  padding-top: 2rem;
+  margin-top: 7rem;
+}
+
+#quotationMarks {
+  display: block;
+  width: 1.3rem;
+}
+.founderPanel {
+  height: 160px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0 auto 1.5rem;
+  text-align: left;
+}
+
+.founderPanel img {
+  border-radius: 50%;
+  max-width: 25px;
+  float: left;
+  margin-right: 0.5rem;
+}
+.founderPanel p {
+  font-size: 10px;
+}
+
+
+.founderInfo {
+  margin-left: 0.5rem;
+}
+
+.founderInfo p {
+  margin: 0;
+}
+
+.founderName {
+  font-size: 10px;
+  letter-spacing: 0.06rem;
+  font-weight: 700;
+}
+
+.founderPosition {
+  font-size: 9px;
+}
+
+/* email sign up for early access panel below founder testimonials*/
+#earlyAccessPanel {
+  background-color: hsl(217, 28%, 15%);
+  width: 90vw;
+    border-radius: 7px;
+    margin: auto;
+    padding: 2rem 0;
+    position: relative;
+    top: 9rem;
+}
+/* setting a gap between the email input box and the sign up button */
+
+input {
+  margin-bottom: 1.5rem;
+}
+/* Footer section background colour */
+
+footer {
+  background-color: hsl(216, 53%, 9%);
+  padding-top: 15rem;
+}
+/* footer paragraphs and lists left aligned */
+.footerContent {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+}
+/* pin phone and email icons nect to contact info */
+.contactImg {
+  float: left;
+}
+/* lorem ipsum, phone number and email styling */
+.contactInfo {
+  margin-left: 2rem;
+  font-size: 16px;
+}
+
+.aboutContact {
+  margin-top: 3rem;
+  line-height: 2;
+  font-size: 16px;
+}
+
+#socialIcons {
+text-align: center;
+margin-top: 2rem;
+}
+
+.socialIcon {
+  width: 30px;
+}
+
+/* Footer attribution */
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  margin-bottom: 0;
+}
